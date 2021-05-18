@@ -1,0 +1,69 @@
+/* button {
+  border-radius: 5rem;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 70rem;
+} */
+.container {
+  display: inline-flex;
+  margin-top: 3rem;
+}
+.allCards {
+  margin: auto;
+  display: inline-flex;
+  align-content: center;
+}
+body {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(23, 118, 55);
+  height: 15rem;
+}
+.cardList {
+    margin-top: 3rem;
+}
+.card {
+  background: white;
+  width: 7rem;
+  height: 10rem;
+  margin: auto;
+  border: solid;
+  border-color: black;
+  border-radius: 1rem;
+}
+.number {
+  margin: auto;
+  font-size: 3rem;
+}
+header {
+  height: 33%;
+}
+section {
+  display: flex;
+  height: 33%;
+}
+footer {
+  height: 33%;
+
+  margin-top: auto;
+}
+.symbolUp {
+  padding-left: 10%;
+  margin-top: 0%;
+  display: inline-flex;
+  font-size: 2rem;
+}
+
+.symbolDown {
+  padding-left: 10%;
+  margin-top: 1rem;
+  font-size: 2rem;
+  transform: rotate(0.5turn);
+}
+section {
+  margin: auto;
+}
+#dollar {
+  font-size: 3.5rem;
+}
